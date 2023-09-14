@@ -7,7 +7,7 @@ function Hero() {
 			<Header home />
 			<img
 				className="banner"
-				src="https://image.tmdb.org/t/p/w500/6oH378KUfCEitzJkm07r97L0RsZ.jpg"
+				src="https://image.tmdb.org/t/p/original/6oH378KUfCEitzJkm07r97L0RsZ.jpg"
 				alt="banner"
 			/>
 			<div className="hero__details">
