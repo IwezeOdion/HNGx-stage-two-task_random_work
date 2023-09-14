@@ -14,7 +14,7 @@ function Header(props) {
 				<span className="logo__name">MovieBox</span>
 			</div>
 			{props.home ? (
-				<Fragment>
+				<>
 					<SearchBar />
 					<div className="logo__container">
 						<span className="logo__name">Sign In</span>
@@ -24,7 +24,7 @@ function Header(props) {
 							className="menu"
 						/>
 					</div>
-				</Fragment>
+				</>
 			) : null}
 		</div>
 	);

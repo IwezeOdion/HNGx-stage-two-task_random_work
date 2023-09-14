@@ -8,7 +8,7 @@ function Footer() {
 					src="/icons/facebook.svg"
 					alt="facebook"
 				/>
-                    <img
+                   <img
                         src="/icons/youtube.svg"
                         alt="youtube"
                     />
@@ -24,9 +24,9 @@ function Footer() {
 			<div className="terms">
 				<p>Conditions of Use</p>
 				<p>Privace and Policy</p>
-				<p>Press Use</p>
+				<p>Press Room</p>
 			</div>
-			<p>© 2021 MovieBox by Adriana Eka Prayudha </p>
+			<p>© 2023 MovieBox by Odion Iweze ❤</p>
 		</footer>
 	);
 }
