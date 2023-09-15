@@ -51,7 +51,7 @@ function MovieProvider({ children }) {
       api_key: apiKey,
       language: 'en-US',
       sort_by: 'popularity.desc', // Sort by popularity to get the top-rated movies
-      page: 1,                    // You can adjust the page number if needed
+      page: 3,                    // You can adjust the page number if needed
     };
 
     // Construct the full API URL with query parameters
