@@ -1,28 +1,34 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/home/Home";
-import "./style.scss";
-import MovieDetails from "./pages/movie-details/MovieDetails";
-import { MovieProvider } from "./MovieContext";
-import Error from "./pages/error/Error";
+import React from 'react'
+
+import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+
+import Home from './routes/Home'
+import MovieDetails from './routes/MovieDetails'
+import PageNotFound from './routes/PageNotFound'
+import SearchResults from './routes/SearchResults'
 
 const router = createBrowserRouter([
-	{
-		path: "/",
-		element: <Home />,
-		errorElement: <Error />
+  {
+    path: '/',
+    element: <Home />,
+    errorElement: <PageNotFound />
+  },
+  {
+    path:'/movies/:movieID',
+    element: <MovieDetails />,
 
-	},
-	{
-		path: "movies/:id",
-		element: <MovieDetails />,
-		errorElement: <Error />
-	},
-]);
+  },
+  {
+    path:'/search',
+    element: <SearchResults />
+  }
 
-const App = () => (
-	<MovieProvider>
-		<RouterProvider router={router} />
-	</MovieProvider>
-);
+])
 
-export default App;
+const App = () => {
+  return (
+    <RouterProvider router={router}/>
+  )
+}
+
+export default App
