@@ -7,18 +7,20 @@ function Hero() {
 			<Header home />
 			<img
 				className="banner"
-				src="https://image.tmdb.org/t/p/original/6oH378KUfCEitzJkm07r97L0RsZ.jpg"
+				src="https://image.tmdb.org/t/p/original/5gzzkR7y3hnY8AD1wXjCnVlHba5.jpg"
 				alt="banner"
 			/>
 			<div className="hero__details">
-				<h1>ELEMENTAL</h1>
+				<h1>The Nun II (2023))</h1>
 				<div>
 					<img
 						className="imob"
 						src="/icons/imob.svg"
 						alt="imob"
 					/>
-					<span className="imob__rate">78.0/100</span>
+					<span className="imob__rate">69%</span>
+					<br />
+					<br />
 					<img
 						className="tomatoes"
 						src="/icons/tomatoes.svg"
@@ -27,7 +29,7 @@ function Hero() {
 					<span className="tomato__rate">97%</span>
 				</div>
 				<p>
-				In a city where fire, water, land and air residents live together, a fiery young woman and a go-with-the-flow guy will discover something elemental: how much they have in common.
+				In 1956 France, a priest is violently murdered, and Sister Irene begins to investigate. She once again comes face-to-face with a powerful evil.
 				</p>
 				<button>
 					<img
