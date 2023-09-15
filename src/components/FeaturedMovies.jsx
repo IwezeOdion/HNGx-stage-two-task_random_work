@@ -24,7 +24,7 @@ const FeaturedMovies = () => {
 	return (
 		<div className='w-full space-y-10 py-10'>
 			<div className='w-full flex items-center justify-between px-8'>
-				<h2 className='text-lg md:text-4xl font-normal'>Featured Movies</h2>
+				<h2 className='text-lg md:text-4xl font-normal'>Top Rated Movies</h2>
 				<div className="flex items-center gap-x-4 text-site-red cursor-pointer">
 					<span>See More</span>
 					<AiOutlineArrowRight />

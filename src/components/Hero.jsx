@@ -10,7 +10,7 @@ const Hero = () => {
 		setIsLoading(true)
 		client("now_playing")
 			.then((res) => {
-				setMovies(res.data.results.slice(0, 5))
+				setMovies(res.data.results.slice(0, 4))
 				setIsLoading(false)
 			})
 			.catch((err) => {
