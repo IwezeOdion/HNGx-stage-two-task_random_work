@@ -11,7 +11,7 @@ const FeaturedMovies = () => {
 	useEffect(() => {
 		setIsLoading(true)
 		client
-			.get("top_rated")
+			.get("popular")
 			.then((res) => {
 				setMovies(res.data.results)
 				setIsLoading(false)
